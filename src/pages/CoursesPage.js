@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import courseStore from '../stores/courseStores';
-import { loadCourses } from '../actions/courseActions';
+import { loadCourses, deleteCourse } from '../actions/courseActions';
 
 const CoursesPage = () => {
 
@@ -30,6 +30,7 @@ const CoursesPage = () => {
         <th>Title</th>
         <th>Author ID</th>
         <th>Category</th>
+        <th>&nbsp;</th>
       </tr>
     </thead>
     <tbody>
@@ -41,6 +42,9 @@ const CoursesPage = () => {
             <td><Link to={`/course/${course.slug}`}>{course.title}</Link></td>
             <td>{course.authorId}</td>
             <td>{course.category}</td>
+            <td>
+              <button className="btn btn-danger" onClick={() => deleteCourse(course.id)}>Delete</button>
+            </td>
           </tr>
           )
         })

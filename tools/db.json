@@ -1,27 +1,6 @@
 {
   "courses": [
     {
-      "id": 1,
-      "title": "Securing React Apps with Auth02",
-      "slug": "react-auth0-authentication-security",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 2,
-      "title": "React: The Big Picture",
-      "slug": "react-big-picture",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
-      "id": 3,
-      "title": "Creating Reusable React Components",
-      "slug": "react-creating-reusable-components",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
       "id": 4,
       "title": "Building a JavaScript Development Environment",
       "slug": "javascript-development-environment",
@@ -69,22 +48,6 @@
       "slug": "web-components-shadow-dom",
       "authorId": 1,
       "category": "HTML5"
-    },
-    {
-      "id": 11,
-      "slug": "assa",
-      "title": "assa",
-      "authorId": 2,
-      "category": "asasa",
-      "createdAt": 1617226777987
-    },
-    {
-      "id": 12,
-      "slug": "asdad",
-      "title": "asdad",
-      "authorId": 2,
-      "category": "adadasd",
-      "createdAt": 1617226833687
     }
   ],
   "authors": [
