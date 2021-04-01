@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "title": "Securing React Apps with Auth0",
+      "title": "Securing React Apps with Auth02",
       "slug": "react-auth0-authentication-security",
       "authorId": 1,
       "category": "JavaScript"
@@ -72,35 +72,19 @@
     },
     {
       "id": 11,
-      "slug": "freddekursen",
-      "title": "freddekursen",
+      "slug": "assa",
+      "title": "assa",
       "authorId": 2,
-      "category": "retorik",
-      "createdAt": 1617203920802
+      "category": "asasa",
+      "createdAt": 1617226777987
     },
     {
       "id": 12,
-      "slug": "pedrics-kingkurs",
-      "title": "pedrics kingkurs",
+      "slug": "asdad",
+      "title": "asdad",
       "authorId": 2,
-      "category": "retorik",
-      "createdAt": 1617204439481
-    },
-    {
-      "id": 13,
-      "slug": "dsffdf",
-      "title": "dsffdf",
-      "authorId": 2,
-      "category": "sfsfd",
-      "createdAt": 1617204987657
-    },
-    {
-      "id": 14,
-      "slug": "sdff",
-      "title": "sdff",
-      "authorId": 2,
-      "category": "fsfs",
-      "createdAt": 1617217043985
+      "category": "adadasd",
+      "createdAt": 1617226833687
     }
   ],
   "authors": [
